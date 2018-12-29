@@ -6,28 +6,25 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "webpack-dev-server --mode development --open --port 3000",
-		"build": "webpack --mode production",
-		"deploy": "gh-pages -d dist",
-		"publish": "npm run build && npm run deploy"
+		"build": "webpack --mode production"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/parashardhapola/cellradar.git"
+		"url": "git+https://github.com/KarlssonLab/cellradar.git"
 	},
 	"keywords": [],
 	"author": "Parashar Dhapola",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/parashardhapola/cellradar/issues"
+		"url": "https://github.com/KarlssonLab/cellradar/issues"
 	},
-	"homepage": "https://github.com/parashardhapola/cellradar#readme",
+	"homepage": "https://karlssonlab.github.io/cellradar",
 	"devDependencies": {
 		"@babel/core": "^7.2.2",
 		"@babel/preset-env": "^7.2.3",
 		"@babel/preset-react": "^7.0.0",
 		"babel-loader": "^8.0.4",
 		"d3": "^5.7.0",
-		"gh-pages": "^2.0.1",
 		"html-loader": "^0.5.5",
 		"html-webpack-plugin": "^3.2.0",
 		"react": "^16.7.0",
