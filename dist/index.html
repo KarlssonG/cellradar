@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/ >
+		<title>CellRadar</title>
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div id="AppEntryPoint"></div>
+		<div class="container-fluid">
+			<nav class="navbar navbar-default" 
+				 style="border-radius:10px;background:#ededed;
+						margin-top:10px;margin-bottom:10px;">
+				<div class="navbar-header">
+				  <a class="navbar-brand">CellRadar</a>
+				</div>
+			</nav>
+			<div class='row'>
+				<div class='col-1'></div>
+				<div class='col-11'>
+					<div class='row'>
+						<div class='col-12'>
+							<p style="display:inline;"><b>Select dataset: </b></p>
+							<div style="display:inline;" id='DatasetSelectComp'></div>
+						</div>
+					</div>
+					<br />
+					<div class='row'>
+						<div class='col-2' id='InputStoreEntry'>	
+							<p><b>Paste gene symbols</b><br /><small>(One gene per line)</small></p>
+							<div id='GeneBoxComp'></div>
+							<p style="margin-bottom:5px;">
+								<small><i>Invalid genes are removed</i></small>
+							</p>
+							<div style="vertical-align:middle;display:inline;"
+								 id="AppendCheckBoxComp">
+							</div>
+							<b>Overlay data</b>
+							<div style="margin-top:5px;" id="SubmitButtonComp"></div>
+						</div>
+
+						<div class='col-10'>
+							<div class='row'>
+								<div class='col-12'>
+									<div id="RadarChart"></div>
+								</div>
+							</div>
+							<div class='row'>
+								<div class='col-12'>
+									<div id="SvgDownloadComp"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<br />
+		</div>
+<!-- 		<div style="position:fixed;margin-top:10px;margin-bottom:10px;
+					bottom:0;left:0;right:0;width:100%;
+					text-align:center;background:#ededed;vertical-align:middle;">
+			<p>Stem Cells and Leukemia Lab, Faculty of Medicine, Lund University</p>
+		</div> -->
+	<script type="text/javascript" src="main.js"></script></body>
+</html>
