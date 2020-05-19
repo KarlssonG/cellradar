@@ -5,7 +5,7 @@ import { SubmitButton, SvgDownload } from "./components.jsx"
 import { rgb } from "d3-color";
 import * as Radar from "./radar.js"
 
-const SERVER = "https://130.235.249.179/cellradar"
+const SERVER = "https://sci-net.org/cellradar"
 
 class App extends React.Component {
     constructor () {
